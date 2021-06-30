@@ -1,1 +1,65 @@
-https://docs.google.com/document/d/1rwKPpwp095QRDK0mup2jZ2rONTYhNuPpUEBtACnCpfs/edit?usp=sharing
+1.Device specific checklist
+1.1 Can the app be installed on the device?
+1.2 Does the app behave as designed/desired if there is an incoming call?
+1.3 Does the app behave as designed/desired if there is an incoming SMS?
+1.4 Does the app behave as designed/desired if the charger is connected?
+1.5 Does the app behave as designed/desired if the charger is disconnected?
+1.6 Does the app behave as designed/desired if the device goes to sleeping mode?
+1.7 Does the app behave as designed/desired if the device goes from sleeping mode?
+1.8 Does the app behave as designed/desired if the device resumes from the lock screen?
+1.9 Does the app behave as designed/desired if the device is tilted?
+1.10 Does the app behave as designed/desired if the device is shaken?
+1.11 Does the app behave as designed/desired if there is a push notification message coming from in -built apps (calendar reminders,to-do tasks etc.)?
+1.12 Does the app behave as designed/desired if a push message is coming from another app (like Whatsapp,Instagram,Twitter,Gmail etc)?
+1.13 Does the app interact with the GPS sensor correctly (switch on/off,retrieve GPS data)?
+1.14 Is the functionality of all the buttons or keys on the device defined for this app?
+1.15 Verify that buttons or keys which are not defined function have no unexpected behavior on the app when pressed.
+1.16 In case there is a true “back” button available on the device does the “back” button take the user to the previous screen?
+1.17 In case there is a true “menu”button available on the device  does the “menu”button show the app’s menu?
+1.18  In case there is a true “home” button available on the device does the “home” button get the user back to the home screen on the device?
+1.19 In case there is a true “search” button available on the device does this get the user back to some form of search within the app?
+1.20 Does the app behave as designed/desired if the “low battery” message is pushed?
+1.21 Does the app behave as designed/desired if the sound on the device is turned off?
+1.22 Does the app behave as designed/desired if the device is in airplane mode?
+1.23 Can the app be uninstalled from the device?
+1.24 Does the application function as expected after re-installation?
+1.25 Can the app be found in the play store or app store(check after it goes live)
+1.26 Can the app switch to different apps on the device through multitasking as designed/desired?
+1.27 Are all touch screen positions(buttons) working when a screen protector is used?
+
+Network specific checklist
+2.1 Does the app behave according to specification if connected to the internet through Wi-Fi?
+2.2  Does the app behave according to specification if connected to the internet through 2G,3G,4G data network?
+2.3 Does the app behave according to specification and show error message when the app is out of network reach?
+2.4 Does the app resume working when it gets back into network reach?
+2.5 Does the app still work correctly when tethering or otherwise to another device?
+2.6 What happens if the app switches between networks(Wi-Fi,3G,2G and 4G)?
+
+2.7 Does the app use standard network ports( Mail:25,143,465,993,995  HTTP:80 or 443 SFTP:22) to connect to remote services as some providers block certain ports?
+
+Application specific checklist
+3.1 Has the app tested on different types of devices and different versions of OS?
+3.2 Stability check:If the app has a list (for instance of pictures) in it,try scrolling through it at high speed.
+3.3 Stability check:If the app has a list (for instance of pictures) in it,try scrolling to before the first picture per entry and beyond the last picture or entry.
+3.4 Is downloading of the app prevented in case it’s bigger than the OS allows downloading when connected to cellular network.
+3.5 Integration: does the app connect correctly to the different social networks(LinkedIn,Twitter,FB etc) or to any other application or site.
+3.6 The app does not interfere with other apps when in background/multitasking mode (using GPS,playing music etc.)
+3.7 Can the user print from the app(if applicable)?
+3.8 The search option in the app displays relevant results
+3.9 What happens when you select different options at the same time(undesired multitouch)
+3.10 Does the app limit or clean the amount of cached data?
+3.11 Does the app go to sleep mode when running in the background (prevent battery drain)
+3.12 Does app is asking permission to access a particular feature of the phone?(f.ex.Calendar,Contacts,location,GPS etc.)
+
+Application User Interface checklist
+4.1 Make it possible for users to go back to a previous screen for instance by adding a back or cancel button.
+4.2 Use at most one action on the screen that is highlighted as the most likely for the users(ex.in IOS a blue button represents the default or most likely action)
+4.3 If there is a long list of data to scroll through,provide a search option above the list
+4.4 If performance is slow ,indicate a progress status icon”Loading”,preferable with a specific message.
+4.5 The app should respond to all changes in device orientation,as rep the design
+4.6 If the app is stopped at an unexpected time,user data should be saved locally and available at start-up.
+4.7 users should be warned of the consequences of deleting a document
+4.8 Keyboard adjusts according to the input (ex.number/letters  keypad should open up in case of phone number field
+
+
+
